@@ -20,3 +20,5 @@ Install a prebuilt binary from the [releases page][]
 1. Clone the repo
 2. Run `make deps` to install the required dependencies
 3. Run `make run`
+
+[releases page]: https://github.com/chevalmuscle/spark/releases/latest
