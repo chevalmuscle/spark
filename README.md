@@ -12,6 +12,10 @@ Run `spark`, write your idea title and description and your idea will be added a
 
 ## Installation
 
+Install a prebuilt binary from the [releases page][]
+
+### Build from source
+
 0. [Install go](https://golang.org/doc/install)
 1. Clone the repo
 2. Run `make deps` to install the required dependencies
