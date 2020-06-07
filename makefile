@@ -16,7 +16,7 @@ clean:
 				$(GOCLEAN)
 				rm -rf $(BINARY_FOLDER)
 run:
-				$(GOBUILD) -o $(BINARY_FOLDER)/$(BINARY_NAME) -v ./...
+				$(GOBUILD) -o $(BINARY_FOLDER)/$(BINARY_NAME) -v
 				./$(BINARY_FOLDER)/$(BINARY_NAME)
 deps:
 				$(GOGET) gopkg.in/yaml.v2
