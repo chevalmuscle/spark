@@ -73,7 +73,7 @@ func config() {
 		fmt.Sprintf(
 			"%sEnter the wanted name of your idea file [ %s ]: %s",
 			string(utils.ColorWhite),
-			defaultIdeaDirectory,
+			defaultIdeaFile,
 			string(utils.ColorReset),
 		),
 	)
