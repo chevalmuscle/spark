@@ -78,7 +78,7 @@ func initConfig() {
 	if err != nil {
 		if err := viper.SafeWriteConfigAs(home + "/.spark.yaml"); err != nil {
 			if os.IsNotExist(err) {
-				err = viper.WriteConfigAs(home)
+				err = viper.WriteConfigAs(home + "/.spark.yaml")
 			}
 		}
 	}
