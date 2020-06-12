@@ -15,6 +15,14 @@ Run `spark`, write your idea title and description and your idea will be added a
 
 ## Installation
 
+### macOS
+
+#### Homebrew
+
+`brew install chevalmuscle/spark-idea/spark`
+
+### Other platforms
+
 Install a prebuilt binary from the [releases page][]
 
 ### Build from source
