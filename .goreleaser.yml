@@ -19,12 +19,15 @@ brews:
       owner: chevalmuscle
       name: homebrew-spark-idea
 
-    url_template: "http://github.com/chevalmuscle/spark/releases/{{ .Tag }}/{{ .ArtifactName }}"
-
     # Folder inside the repository to put the formula.
     # Default is the root folder.
     folder: Formula
 
+    custom_block: |
+      head do
+        url "https://github.com/chevalmuscke/spark.git"
+        depends_on "go"
+      end
     # Your app's description.
     # Default is empty.
     description: "A simple cli to input and store your ideas directly with git and without a text editor"
