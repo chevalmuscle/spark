@@ -8,7 +8,10 @@ Run `spark`, write your idea title and description and your idea will be added a
 
 ## Usage
 
-`spark` to write a new idea
+- `spark` to write a new idea
+- `spark view` to print the idea list using less
+- `spark config` to reset the configuration
+- `spark help`
 
 ## Installation
 
