@@ -15,12 +15,6 @@ archives:
 brews:
   - name: spark
 
-    # IDs of the archives to use.
-    # Defaults to all.
-    ids:
-    - foo
-    - bar
-
     github:
       owner: chevalmuscle
       name: homebrew-spark-idea
@@ -36,15 +30,6 @@ brews:
     description: "A simple cli to input and store your ideas directly with git and without a text editor"
 
     skip_upload: auto
-
-    # Custom block for brew.
-    # Can be used to specify alternate downloads for devel or head releases.
-    # Default is empty.
-    custom_block: |
-      head do
-        "https://github.com/chevalmuscle/spark.git"
-        depends_on "go"
-      end
 
     # Custom install script for brew.
     # Default is 'bin.install "program"'.
