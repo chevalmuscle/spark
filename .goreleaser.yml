@@ -34,11 +34,6 @@ brews:
 
     skip_upload: auto
 
-    # Custom install script for brew.
-    # Default is 'bin.install "program"'.
-    install: |
-      bin.install "bin/spark"
-
 checksum:
   name_template: 'checksums.txt'
 snapshot:
