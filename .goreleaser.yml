@@ -1,6 +1,6 @@
 before:
   hooks:
-  
+
 builds:
 - env:
   - CGO_ENABLED=0
@@ -15,7 +15,7 @@ archives:
 brews:
   - name: spark
 
-    github:
+    tap:
       owner: chevalmuscle
       name: homebrew-spark-idea
 
